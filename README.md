@@ -1,0 +1,2 @@
+# SFMLResources
+This project is where I learn how to implement resources in a game. Resources such as audio - music and sound effects, sprites like a spaceship and a background for the spaceship to fly over.
