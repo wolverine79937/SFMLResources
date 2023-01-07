@@ -1,4 +1,4 @@
-#include "resourceholder.hpp"
+#include "resourceholder.hh"
 #include <SFML/Graphics.hpp>
 #include <iostream>
 
