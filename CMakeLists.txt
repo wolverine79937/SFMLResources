@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.2)
 
-project(resources)
+project(resources
+        VERSION 0.0.0
+        LANGUAGES CXX
+)
+
 set(EXECUTABLE_NAME "resources")
 set(resources_VERSION_MAJOR 0)
 set(resources_VERSION_MINOR 1)
