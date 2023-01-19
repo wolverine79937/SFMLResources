@@ -5,10 +5,10 @@
 #include <cassert>
 
 template <typename Resource, typename Identifier>
-class resourceholder
+class ResourceHolder
 {
     public:
-            void load(Identifier id, const std::string& filename);
+            bool loadFromFile(Identifier id, const std::string& filename);
 
     private:
         std::map<Identifier, std::unique_ptr<Resource>> mResourceMap;
